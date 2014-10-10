@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/kobject/kobject.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/kobject/kobject.ko /home/passion/share/mydriver/char/kobject/kobject.o /home/passion/share/mydriver/char/kobject/kobject.mod.o

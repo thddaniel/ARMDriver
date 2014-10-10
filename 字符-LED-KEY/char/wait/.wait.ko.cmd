@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/wait/wait.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/wait/wait.ko /home/passion/share/mydriver/char/wait/wait.o /home/passion/share/mydriver/char/wait/wait.mod.o

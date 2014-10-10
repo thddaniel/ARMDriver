@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/keys/botton1/plat_buttons.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/keys/botton1/plat_buttons.ko /home/passion/share/mydriver/keys/botton1/plat_buttons.o /home/passion/share/mydriver/keys/botton1/plat_buttons.mod.o

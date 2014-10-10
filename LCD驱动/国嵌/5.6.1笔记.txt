@@ -1,0 +1,20 @@
+5.6.1:
+VBPD->对应驱动里的upper_margin    1  14
+VFPD->对应驱动里的lower_margin    1  11
+VSPW->对应驱动里的vsync_len       9  2
+HBPD->对应驱动里的left_margin     1  37
+HFPD->对应驱动里的right_margin    1  19
+HSPW->对应驱动里的hsync_len      40  29
+
+5.6.2:
+帧缓冲设备为标准字符设备，主设备号为29，次设备号则从0到31
+
+实例演示：
+1.清除LCD
+dd if=/dev/zero of=/dev/fb0 bs=240 count=320
+2.运行应用程序,画图
+./LCD
+3.清除LCD
+dd if=/dev/zero of=/dev/fb0 bs=240 count=320
+4.显示图片
+cat 7.bmp>/dev/fb0

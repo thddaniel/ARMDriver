@@ -1,0 +1,19 @@
+1.韦东山二期视频 输入子系统里的，
+   cat /dev/tty1 按键可以打印出ls,
+   但执行exec 0</dev/tty1后，按键没有反应。输入还是串口，没有变成tty1。
+
+2. 按视频移植LCD驱动后，成功了可以输出hello
+   但之前可以的qt，现在执行会出现Screen depth 32 not supported!这句话。
+   不知道在哪里改~.参数和天嵌文档不一样！！
+
+3.触摸屏驱动程序中static irqreturn_t adc_irq(int irq, void *dev_id)中的cnt变量为什么是局部变量,等等类似问题。
+   (已解决) 
+
+4.IIC裸机不是很懂
+
+5.网卡需重看
+
+6.结构体成员 什么时候用  .xxx=xxx      ->xxx=xxx//答: 指针用->       比如struct xxx {}； xxx*aaa 指针类型
+
+7.声卡驱动要继续研究
+

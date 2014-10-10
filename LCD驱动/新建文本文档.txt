@@ -1,0 +1,1 @@
+arch/arm/mach-s3c2440/mach-smdk2440.c

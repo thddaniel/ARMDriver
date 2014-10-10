@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/sem/sem.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/sem/sem.ko /home/passion/share/mydriver/char/sem/sem.o /home/passion/share/mydriver/char/sem/sem.mod.o

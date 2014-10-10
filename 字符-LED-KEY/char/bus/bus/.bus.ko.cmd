@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/bus/bus/bus.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/bus/bus/bus.ko /home/passion/share/mydriver/char/bus/bus/bus.o /home/passion/share/mydriver/char/bus/bus/bus.mod.o

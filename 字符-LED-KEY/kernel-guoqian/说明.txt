@@ -1,0 +1,34 @@
+国嵌视频
+
+
+应用程序：
+#include <syswait.h>
+usleep(n) //n微秒
+Sleep（n）//n毫秒
+sleep（n）//n秒
+
+
+内核：
+
+#include <linux/delay.h>
+void ndelay(unsigned long nsecs);
+void udelay(unsigned long usecs);
+void mdelay(unsigned long msecs);
+ 
+
+重要的是记住这 3 个延时函数是忙等待; 其他任务在时间流失时不能运行。每个体系都实现 udelay, 但是其他的函数可能未定义; 如果它们没有定义, <linux/delay.h> 提供一个缺省的基于 udelay 的版本。在所有的情况中, 获得的延时至少是要求的值, 但可能更多。udelay 的实现使用一个软件循环, 它基于在启动时计算的处理器速度和使用整数变量 loos_per_jiffy确定循环次数。
+ 
+为避免在循环计算中整数溢出, 传递给udelay 和 ndelay的值有一个上限，如果你的模块无法加载和显示一个未解决的符号：__bad_udelay, 这意味着你调用 udleay时使用太大的参数。
+作为一个通用的规则：若试图延时几千纳秒, 应使用 udelay 而不是 ndelay; 类似地, 毫秒规模的延时应当使用 mdelay 完成而不是一个更细粒度的函数。
+ 
+有另一个方法获得毫秒(和更长)延时而不用涉及到忙等待的方法是使用以下函数（在<linux/delay.h> 中声明）:
+ 
+ 
+ 
+
+
+
+void msleep(unsigned int millisecs);
+unsigned long msleep_interruptible(unsigned int millisecs);
+void ssleep(unsigned int seconds)
+ 

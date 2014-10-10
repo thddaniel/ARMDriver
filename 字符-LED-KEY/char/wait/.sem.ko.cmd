@@ -1,0 +1,1 @@
+cmd_/opt/EmbedSky/share/qudong/char/sem/sem.ko := arm-linux-ld -EL -r   --build-id -o /opt/EmbedSky/share/qudong/char/sem/sem.ko /opt/EmbedSky/share/qudong/char/sem/sem.o /opt/EmbedSky/share/qudong/char/sem/sem.mod.o

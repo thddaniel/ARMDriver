@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/poll/poll.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/poll/poll.ko /home/passion/share/mydriver/char/poll/poll.o /home/passion/share/mydriver/char/poll/poll.mod.o

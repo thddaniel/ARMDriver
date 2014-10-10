@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/kernel-guoqian/proc/proc1/proc1.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/kernel-guoqian/proc/proc1/proc1.ko /home/passion/share/mydriver/kernel-guoqian/proc/proc1/proc1.o /home/passion/share/mydriver/kernel-guoqian/proc/proc1/proc1.mod.o

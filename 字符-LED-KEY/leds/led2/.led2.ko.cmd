@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/leds/led2/led2.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/leds/led2/led2.ko /home/passion/share/mydriver/leds/led2/led2.o /home/passion/share/mydriver/leds/led2/led2.mod.o

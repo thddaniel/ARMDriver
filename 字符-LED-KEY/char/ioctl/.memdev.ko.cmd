@@ -1,0 +1,1 @@
+cmd_/home/passion/share/qudong/char/ioctl/memdev.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/qudong/char/ioctl/memdev.ko /home/passion/share/qudong/char/ioctl/memdev.o /home/passion/share/qudong/char/ioctl/memdev.mod.o

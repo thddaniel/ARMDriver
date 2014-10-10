@@ -1,0 +1,1 @@
+cmd_/opt/EmbedSky/share/qudong/leds/first_dev/first_dev.ko := arm-linux-ld -EL -r   --build-id -o /opt/EmbedSky/share/qudong/leds/first_dev/first_dev.ko /opt/EmbedSky/share/qudong/leds/first_dev/first_dev.o /opt/EmbedSky/share/qudong/leds/first_dev/first_dev.mod.o

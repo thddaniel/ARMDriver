@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/keys/key6/key6.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/keys/key6/key6.ko /home/passion/share/mydriver/keys/key6/key6.o /home/passion/share/mydriver/keys/key6/key6.mod.o

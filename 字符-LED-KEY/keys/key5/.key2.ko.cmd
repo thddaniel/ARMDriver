@@ -1,0 +1,1 @@
+cmd_/opt/EmbedSky/share/qudong/keys/key5/key2.ko := arm-linux-ld -EL -r   --build-id -o /opt/EmbedSky/share/qudong/keys/key5/key2.ko /opt/EmbedSky/share/qudong/keys/key5/key2.o /opt/EmbedSky/share/qudong/keys/key5/key2.mod.o

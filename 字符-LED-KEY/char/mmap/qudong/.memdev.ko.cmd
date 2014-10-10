@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/mmap/qudong/memdev.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/mmap/qudong/memdev.ko /home/passion/share/mydriver/char/mmap/qudong/memdev.o /home/passion/share/mydriver/char/mmap/qudong/memdev.mod.o

@@ -1,0 +1,21 @@
+botton1:国嵌版按键查询
+key1:韦东山版查询按键驱动
+key2:韦东山版中断按键驱动
+
+key3:韦东山+类似国嵌版中断按键驱动
+key4:类似国嵌版中断按键驱动
+
+key5:韦东山添加了poll函数
+key6:韦东山添加了fasync函数
+key7:韦东山添加了信号量
+
+key8:添加了定时器,韦东山防抖动驱动
+key9:仿照内核原代码写的按键驱动，写得太奇怪了
+
+test:临时测试
+笔记：
+key6:
+fcntl(fd, F_SETOWN, getpid());//告诉内核，发给谁
+Oflags = fcntl(fd, F_GETFL);
+fcntl(fd, F_SETFL, Oflags | FASYNC);//改变fancync标记，最终会调用到驱动
+faync>fasync_helper:初始化/释放 fasync_struct

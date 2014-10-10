@@ -1,0 +1,1 @@
+cmd_/home/passion/share/qudong/leds/led4/led4.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/qudong/leds/led4/led4.ko /home/passion/share/qudong/leds/led4/led4.o /home/passion/share/qudong/leds/led4/led4.mod.o

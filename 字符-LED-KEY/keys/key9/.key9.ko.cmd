@@ -1,0 +1,1 @@
+cmd_/home/passion/share/qudong/keys/key9/key9.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/qudong/keys/key9/key9.ko /home/passion/share/qudong/keys/key9/key9.o /home/passion/share/qudong/keys/key9/key9.mod.o

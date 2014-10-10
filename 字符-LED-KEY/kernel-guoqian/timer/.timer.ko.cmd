@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/timer/timer.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/timer/timer.ko /home/passion/share/mydriver/timer/timer.o /home/passion/share/mydriver/timer/timer.mod.o

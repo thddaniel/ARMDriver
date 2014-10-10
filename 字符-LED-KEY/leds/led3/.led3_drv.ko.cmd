@@ -1,0 +1,1 @@
+cmd_/home/passion/share/qudong/leds/led3/led3_drv.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/qudong/leds/led3/led3_drv.ko /home/passion/share/qudong/leds/led3/led3_drv.o /home/passion/share/qudong/leds/led3/led3_drv.mod.o

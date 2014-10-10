@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/char/ioctl/ioctl.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/char/ioctl/ioctl.ko /home/passion/share/mydriver/char/ioctl/ioctl.o /home/passion/share/mydriver/char/ioctl/ioctl.mod.o

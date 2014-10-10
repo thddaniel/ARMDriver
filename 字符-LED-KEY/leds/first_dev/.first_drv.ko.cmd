@@ -1,0 +1,1 @@
+cmd_/home/passion/share/mydriver/leds/first_dev/first_drv.ko := arm-linux-ld -EL -r   --build-id -o /home/passion/share/mydriver/leds/first_dev/first_drv.ko /home/passion/share/mydriver/leds/first_dev/first_drv.o /home/passion/share/mydriver/leds/first_dev/first_drv.mod.o
